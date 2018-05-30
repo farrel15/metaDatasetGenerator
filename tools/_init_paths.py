@@ -19,3 +19,9 @@ this_dir = osp.dirname(__file__)
 # Add lib to PYTHONPATH
 lib_path = osp.join(this_dir, '..', 'lib')
 add_path(lib_path)
+
+'''
+osp.dirname:
+Input: __file__, Output: this_dir
+
+'''
